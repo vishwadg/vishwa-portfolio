@@ -13,7 +13,6 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
