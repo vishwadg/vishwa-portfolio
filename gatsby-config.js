@@ -5,7 +5,7 @@ module.exports = {
     title: 'Vishwa Deep Ghimire',
     description:
       'Software Engineer with 7+ years of experience. Proficient in 10+ programming languages and frameworks.',
-    siteUrl: 'http://localhost:8000/', // No trailing slash allowed!
+    siteUrl: 'https://vishwadeepghimire.com/', // No trailing slash allowed!
     image: '/vishwa_ghimire.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@vishwa1937',
   },
