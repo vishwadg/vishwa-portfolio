@@ -129,8 +129,6 @@ const ContactForm = () => {
 
       const responseData = await response.json();
 
-      console.log("responseData", responseData)
-      console.log("response", response)
       if (responseData?.message === 'success') {
         setSuccessMessage("Message sent successfully");
         setIsSubmitted(true);
