@@ -59,7 +59,7 @@ const StyledContactForm = styled.form`
   }
 `;
 
-const apiEndpoint = 'https://axgz8mjeif.execute-api.us-east-1.amazonaws.com/v1';
+const apiEndpoint = 'https://axgz8mjeif.execute-api.us-east-1.amazonaws.com/v1/message';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
