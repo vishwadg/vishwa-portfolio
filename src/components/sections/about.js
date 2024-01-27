@@ -143,7 +143,7 @@ const About = () => {
             and integration, utilizing comprehensive Software Development Life Cycle methodologies and innovative design patterns. 
             Demonstrated expertise in delivering high-quality, resilient solutions that align seamlessly with diverse business requirements.
             Proven track record in successfully implementing a spectrum of systems, including SaaS applications, standalone tools, RESTful APIs,
-            web applications, and mobile applications. Possesses advanced proficiency in a variety of technologies, including Java, Kotlin, JavaScript, TypeScript, Python, React, Spring, and Hibernate.
+            web applications, and mobile applications with advanced proficiency in a variety of technologies, including Java, Kotlin, JavaScript, TypeScript, Python, React, Angular, Spring, and Hibernate.
             
             </p>
 
@@ -155,7 +155,7 @@ const About = () => {
               <a href="https://visnetwork.com.au/">an Australian Software &amp; Digital Marketing Company </a>, and {' '}
               <a href="https://fawesomeapps.com/">a start up</a>. 
               My main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://www.7-eleven.com/">7-Eleven</a> for customer.
+              experiences at <a href="https://www.7-eleven.com/">7-Eleven</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

@@ -175,8 +175,8 @@ const Education = () => {
           node {
             frontmatter {
               title
-              companyShort
-              company
+              uniShort
+              uni
               location
               range
               url
@@ -248,10 +248,10 @@ const Education = () => {
       <h2 className="numbered-heading">Education (Enlightment)</h2>
 
       <div className="inner">
-        <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
+        <StyledTabList role="tablist" aria-label="Education tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { companyShort ,company } = node.frontmatter;
+              const { uniShort ,uni } = node.frontmatter;
               return (
                 <StyledTabButton
                   key={i}
@@ -263,7 +263,7 @@ const Education = () => {
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
-                  <span>{companyShort}</span>
+                  <span>{uniShort}</span>
                 </StyledTabButton>
               );
             })}
@@ -274,7 +274,7 @@ const Education = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, companyShort, company, range } = frontmatter;
+              const { title, url, uniShort ,uni, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -287,14 +287,12 @@ const Education = () => {
                     hidden={activeTabId !== i}>
                     <h3>
                       <span>{title}</span>
-                      <span className="company">
-                        &nbsp;@&nbsp;
-                        <a href={url} className="inline-link">
-                          {company}
-                        </a>
-                      </span>
                     </h3>
-
+                    <span className="company">
+                        <a href={url} className="inline-link">
+                          {uni}
+                        </a>
+                    </span>
                     <p className="range">{range}</p>
 
                     <div dangerouslySetInnerHTML={{ __html: html }} />
