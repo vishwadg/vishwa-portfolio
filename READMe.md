@@ -1,12 +1,13 @@
 # Welcome
 Welcome to [Vishwa's Portfolio](https://vishwadeepghimire.com/). This is built using [Gatsby](https://www.gatsbyjs.com/). Hosted with [AWS](aws.amazon.com) using following services:
 
-- S3
+- S3 (Simple Storage Service)
 - API Gateway
 - Lambda
 - DynamoDB
 - Route53
 - CloudFront
+- SES (Simple Email Service)
 
 # Project Timeline
 
@@ -54,4 +55,6 @@ Welcome to [Vishwa's Portfolio](https://vishwadeepghimire.com/). This is built u
 - **Content Update**:
   - Added more blogs
   - Updated descriptions for Education and About Me sections
-
+  - Integrated SES to send sender message with all details to my email
+- **Email Integration**:
+  - Integrated SES to automatically forward sender messages, containing all relevant details, to the my email address
