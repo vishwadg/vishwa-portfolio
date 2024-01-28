@@ -49,7 +49,7 @@ Welcome to [Vishwa's Portfolio](https://vishwadeepghimire.com/). This is built u
   - Implemented CloudFront and placed it in front of the S3 bucket
 - **Automation**:
   - Added CI/CD workflow for automatic deployment to the S3 bucket upon new code push to GitHub
-  - Added a script to invalidate CloudFront cache when new changes are pushed to S3
+  - Added a script to invalidate CloudFront cache when new changes are pushed to S3 using Git Actions
 
 ## Sat Jan 27, 2024
 - **Content Update**:
