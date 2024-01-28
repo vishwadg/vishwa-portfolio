@@ -56,5 +56,5 @@ Welcome to [Vishwa's Portfolio](https://vishwadeepghimire.com/). This is built u
   - Added more blogs
   - Updated descriptions for Education and About Me sections
   - Integrated SES to send sender message with all details to my email
-- **Email Integration**:
-  - Integrated SES to automatically forward sender messages, containing all relevant details, to the my email address
+- **SES Integration**:
+  - Integrated SES to automatically forward sender message, containing all relevant details sent from Contact Form from website to my email address
