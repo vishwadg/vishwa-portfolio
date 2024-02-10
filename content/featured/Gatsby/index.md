@@ -14,6 +14,6 @@ tech:
 ---
 
 
-Gatsby is a powerful open-source framework for building modern websites and applications. In this guide, we’ll explore the benefits of deploying a Gatsby static website on Amazon S3 and CloudFront, providing a step-by-step tutorial on deploying without a domain name initially.
+Recently I tried creating a static site using Gatsby and deployed it on S3 and CloudFront without a domain name. In this blog, I want to share how can you also create a static site and easily deploy it on the cloud using AWS services.
 
-Amazon S3 offers a cost-effective storage solution for static files, and CloudFront’s pay-as-you-go model ensures you only pay for the data transfer and requests you use.
+Gatsby is a powerful open-source framework for building modern websites and applications. In this blog, we’ll explore the benefits of deploying a Gatsby static website on Amazon S3 and CloudFront, without a need for the domain name.
